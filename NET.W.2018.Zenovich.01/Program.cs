@@ -37,13 +37,19 @@ namespace NET.W._2018.Zenovich._01
             Console.WriteLine();
             Console.WriteLine("{0}", new String('-', 30));
 
-            NewsService newsService = new NewsService("NewService", "http://localhost");
-            newsService.Title = "News about Minsk";
+            NewsService newsService = new NewsService("NewService", "http://localhost")
+            {
+                Title = "News about Minsk"
+            };
             DateTimeService dateTimeService = new DateTimeService("DateTimeService", "http://localhost:8080");
-            MovieService movieService = new MovieService("MovieService", "http://localhost:2000");
-            movieService.Movie = "My life";
-            WeatherService weatherService = new WeatherService("WeatherService", "http://localhost:2232");
-            weatherService.Location = "Minsk";
+            MovieService movieService = new MovieService("MovieService", "http://localhost:2000")
+            {
+                Movie = "My life"
+            };
+            WeatherService weatherService = new WeatherService("WeatherService", "http://localhost:2232")
+            {
+                Location = "Minsk"
+            };
 
             IEnumerable<IService> services = new List<IService>
             {
