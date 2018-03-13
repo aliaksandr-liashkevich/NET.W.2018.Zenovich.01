@@ -7,8 +7,8 @@
     <ProjectGuid>{1457EADB-AEF8-47D4-BCCF-9B81E0255625}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NET.W._2018.Zenovich._01.BrowserClassification</RootNamespace>
-    <AssemblyName>NET.W._2018.Zenovich._01.BrowserClassification</AssemblyName>
+    <RootNamespace>NET.W._2018.Zenovich._01.ServiceClassification</RootNamespace>
+    <AssemblyName>NET.W._2018.Zenovich._01.ServiceClassification</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
