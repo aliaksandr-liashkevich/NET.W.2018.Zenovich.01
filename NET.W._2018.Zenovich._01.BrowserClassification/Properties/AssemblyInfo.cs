@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("NET.W._2018.Zenovich._01.ServiceClassification")]
+[assembly: AssemblyTitle("NET.W.2018.Zenovich.01.ServiceClassification")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NET.W._2018.Zenovich._01.ServiceClassification")]
+[assembly: AssemblyProduct("NET.W.2018.Zenovich.01.ServiceClassification")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

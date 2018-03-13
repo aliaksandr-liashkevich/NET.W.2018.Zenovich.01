@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NET.W._2018.Zenovich._01.ServiceClassification</RootNamespace>
-    <AssemblyName>NET.W._2018.Zenovich._01.ServiceClassification</AssemblyName>
+    <AssemblyName>NET.W.2018.Zenovich.01.ServiceClassification</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
