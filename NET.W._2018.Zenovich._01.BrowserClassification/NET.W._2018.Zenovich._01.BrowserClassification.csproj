@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B4E29A5F-BB55-4548-94BF-F4A5EBC63BC2}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>NET.W._2018.Zenovich._01</RootNamespace>
-    <AssemblyName>NET.W.2018.Zenovich.01</AssemblyName>
+    <ProjectGuid>{1457EADB-AEF8-47D4-BCCF-9B81E0255625}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NET.W._2018.Zenovich._01.BrowserClassification</RootNamespace>
+    <AssemblyName>NET.W._2018.Zenovich._01.BrowserClassification</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,17 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="API\IService.cs" />
+    <Compile Include="API\Service.cs" />
+    <Compile Include="Exception\InvalidOperationServiceException.cs" />
+    <Compile Include="Model\DateTimeService.cs" />
+    <Compile Include="Model\NewsService.cs" />
+    <Compile Include="Model\WeatherService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NET.W._2018.Zenovich._01.BrowserClassification\NET.W._2018.Zenovich._01.BrowserClassification.csproj">
-      <Project>{1457eadb-aef8-47d4-bccf-9b81e0255625}</Project>
-      <Name>NET.W._2018.Zenovich._01.BrowserClassification</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
