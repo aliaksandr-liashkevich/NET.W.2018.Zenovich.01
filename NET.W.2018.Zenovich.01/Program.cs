@@ -25,7 +25,39 @@ namespace NET.W._2018.Zenovich._01
             }
             Console.WriteLine();
             Console.WriteLine("{0}", new String('-', 30));
-            IService service = new NewsService("NewService", "http://localhost"); 
+
+            int[] arrayQ = { 3, 8, 2, 1, 3335, 4, -6, 7, 2, -3232, 123, 33, 2, -1, 0, 0, 0 };
+
+            arrayUtils.MergeSort(arrayQ);
+
+            foreach (var item in array)
+            {
+                Console.Write("{0} ", item);
+            }
+            Console.WriteLine();
+            Console.WriteLine("{0}", new String('-', 30));
+
+            NewsService newsService = new NewsService("NewService", "http://localhost");
+            newsService.Title = "News about Minsk";
+            DateTimeService dateTimeService = new DateTimeService("DateTimeService", "http://localhost:8080");
+            MovieService movieService = new MovieService("MovieService", "http://localhost:2000");
+            movieService.Movie = "My life";
+            WeatherService weatherService = new WeatherService("WeatherService", "http://localhost:2232");
+            weatherService.Location = "Minsk";
+
+            IEnumerable<IService> services = new List<IService>
+            {
+                newsService,
+                dateTimeService,
+                movieService,
+                weatherService
+            };
+
+            foreach (var service in services)
+            {
+                Console.WriteLine(service.Request());
+            }
+            
            
             Console.ReadKey();
         }
