@@ -6,6 +6,5 @@
 
 * API:
     * IArrayUtils
-    * 
 * Model:
     * ArrayUtils
