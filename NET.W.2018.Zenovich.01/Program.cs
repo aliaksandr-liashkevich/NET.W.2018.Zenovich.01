@@ -30,6 +30,7 @@ namespace NET.W._2018.Zenovich._01
 
             arrayUtils.MergeSort(arrayQ);
 
+
             foreach (var item in array)
             {
                 Console.Write("{0} ", item);
