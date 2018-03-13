@@ -44,6 +44,7 @@
     <Compile Include="API\Service.cs" />
     <Compile Include="Exception\InvalidOperationServiceException.cs" />
     <Compile Include="Model\DateTimeService.cs" />
+    <Compile Include="Model\MovieService.cs" />
     <Compile Include="Model\NewsService.cs" />
     <Compile Include="Model\WeatherService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -13,10 +13,9 @@ namespace NET.W._2018.Zenovich._01.BrowserClassification.Model
         private double _temperature;
         private string _location;
 
-        private WeatherService(string name, string urlAdress, string location) 
+        private WeatherService(string name, string urlAdress) 
             : base(name, urlAdress)
         {
-            _location = location ?? throw new ArgumentNullException(nameof(location));
             _temperature = Double.NaN;
         }
 
@@ -39,10 +38,19 @@ namespace NET.W._2018.Zenovich._01.BrowserClassification.Model
             {
                 return _location;
             }
+            set
+            {
+                _location = value ?? throw new ArgumentNullException(nameof(Location));
+            }
         }
 
         public override string Request()
         {
+            if (_location == null)
+            {
+                throw new InvalidOperationException($"{nameof(Location)} is undefined");
+            }
+
             Console.WriteLine($"{nameof(WeatherService)}...");
 
             _temperature = 10.5;
