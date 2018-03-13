@@ -49,9 +49,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NET.W._2018.Zenovich._01.BrowserClassification\NET.W._2018.Zenovich._01.BrowserClassification.csproj">
-      <Project>{1457eadb-aef8-47d4-bccf-9b81e0255625}</Project>
-      <Name>NET.W._2018.Zenovich._01.BrowserClassification</Name>
+    <ProjectReference Include="..\NET.W.2018.Zenovich.01.API\NET.W.2018.Zenovich.01.API.csproj">
+      <Project>{be847837-5f90-4a06-bea2-4e1e6a4114a9}</Project>
+      <Name>NET.W.2018.Zenovich.01.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NET.W.2018.Zenovich.01.Model\NET.W.2018.Zenovich.01.Model.csproj">
+      <Project>{f7499d58-693c-49dc-8f7f-5c0061dd8608}</Project>
+      <Name>NET.W.2018.Zenovich.01.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
