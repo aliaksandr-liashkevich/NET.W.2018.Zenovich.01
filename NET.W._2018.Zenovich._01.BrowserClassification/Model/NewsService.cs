@@ -22,7 +22,6 @@ namespace NET.W._2018.Zenovich._01.ServiceClassification.Model
         {
             get
             {
-
                 return _title ?? throw new InvalidOperationServiceException();
             }
             set

@@ -33,7 +33,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>NET.W._2018.Zenovich._01.ServiceClassification.Key.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>NET.W._2018.Zenovich._01.BrowserClassification.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,7 +56,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="NET.W._2018.Zenovich._01.ServiceClassification.Key.pfx" />
+    <None Include="NET.W._2018.Zenovich._01.BrowserClassification.pfx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

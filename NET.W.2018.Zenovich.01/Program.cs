@@ -25,10 +25,8 @@ namespace NET.W._2018.Zenovich._01
             }
             Console.WriteLine();
             Console.WriteLine("{0}", new String('-', 30));
-
-            IService service = new DateTimeService("DateTimeService", "http://localhost:8080");
-            IService service = new WeatherService("DateTimeService", "http://localhost:8080");
-
+            IService service = new NewsService("NewService", "http://localhost"); 
+           
             Console.ReadKey();
         }
     }

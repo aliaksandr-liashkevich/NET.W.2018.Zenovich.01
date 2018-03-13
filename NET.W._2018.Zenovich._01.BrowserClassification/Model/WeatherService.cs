@@ -13,7 +13,7 @@ namespace NET.W._2018.Zenovich._01.ServiceClassification.Model
         private double _temperature;
         private string _location;
 
-        private WeatherService(string name, string urlAdress) 
+        public WeatherService(string name, string urlAdress) 
             : base(name, urlAdress)
         {
             _temperature = Double.NaN;
