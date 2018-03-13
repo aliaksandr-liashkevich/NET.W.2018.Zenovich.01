@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NET.W._2018.Zenovich._01.ServiceClassification.Model
 {
-    class NewsService : Service
+    public class NewsService : Service
     {
         private string _title;
         private string _body;

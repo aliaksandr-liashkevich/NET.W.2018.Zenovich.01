@@ -1,5 +1,7 @@
 ﻿using NET.W._2018.Zenovich._01.API;
 using NET.W._2018.Zenovich._01.Model;
+using NET.W._2018.Zenovich._01.ServiceClassification.API;
+using NET.W._2018.Zenovich._01.ServiceClassification.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +26,8 @@ namespace NET.W._2018.Zenovich._01
             Console.WriteLine();
             Console.WriteLine("{0}", new String('-', 30));
 
+            IService service = new DateTimeService("DateTimeService", "http://localhost:8080");
+            IService service = new WeatherService("DateTimeService", "http://localhost:8080");
 
             Console.ReadKey();
         }

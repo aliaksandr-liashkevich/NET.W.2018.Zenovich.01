@@ -32,6 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NET.W._2018.Zenovich._01.ServiceClassification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1a532014ca7b2056, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\NET.W._2018.Zenovich._01.ServiceClassification\v4.0_1.0.0.0__1a532014ca7b2056\NET.W._2018.Zenovich._01.ServiceClassification.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,6 +57,7 @@
     <ProjectReference Include="..\NET.W.2018.Zenovich.01.API\NET.W.2018.Zenovich.01.API.csproj">
       <Project>{be847837-5f90-4a06-bea2-4e1e6a4114a9}</Project>
       <Name>NET.W.2018.Zenovich.01.API</Name>
+      <Private>True</Private>
     </ProjectReference>
     <ProjectReference Include="..\NET.W.2018.Zenovich.01.Model\NET.W.2018.Zenovich.01.Model.csproj">
       <Project>{f7499d58-693c-49dc-8f7f-5c0061dd8608}</Project>
