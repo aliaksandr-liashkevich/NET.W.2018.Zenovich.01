@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NET.W._2018.Zenovich._01.BrowserClassification.Model
 {
-    class NewsService: Service
+    class NewsService : Service
     {
         private string _title;
         private string _body;

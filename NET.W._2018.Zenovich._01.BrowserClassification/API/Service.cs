@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NET.W._2018.Zenovich._01.BrowserClassification.API
 {
-    public abstract class Service: IService
+    public abstract class Service : IService
     {
         protected String _name;
         protected String _urlAddress;
