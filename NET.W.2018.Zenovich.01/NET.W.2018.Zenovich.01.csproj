@@ -32,9 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NET.W._2018.Zenovich._01.ServiceClassification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=67968d6c2d957f4e, processorArchitecture=MSIL">
+    <Reference Include="NET.W.2018.Zenovich.01.ServiceClassification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=67968d6c2d957f4e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\NET.W._2018.Zenovich._01.ServiceClassification\v4.0_1.0.0.0__67968d6c2d957f4e\NET.W._2018.Zenovich._01.ServiceClassification.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\NET.W.2018.Zenovich.01.ServiceClassification\v4.0_1.0.0.0__67968d6c2d957f4e\NET.W.2018.Zenovich.01.ServiceClassification.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />

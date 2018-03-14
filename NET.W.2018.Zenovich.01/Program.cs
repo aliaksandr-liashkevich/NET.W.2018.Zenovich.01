@@ -17,7 +17,9 @@ namespace NET.W._2018.Zenovich._01
             int[] array = { 3, 8, 2, 1, 3335, 4, -6, 7, 22, 24, 123, 12, 11, 440, 0, -1, -3232 };
 
             IArrayUtils arrayUtils = new ArrayUtils();
+
             arrayUtils.MergeSort(array);
+
 
             foreach (var item in array)
             {
